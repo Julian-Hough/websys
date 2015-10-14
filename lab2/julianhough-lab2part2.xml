@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+	<?xml-stylesheet type="text/css" href="julianhoughlab2part4.css"?>
+
+	
+	
+	<playlist xmlns="http://www.w3.org/1999/xhtml">
+
+		<song>
+			<artist>Artist</artist>
+			<album>Album</album>
+			<albumcover>Album Cover</albumcover>
+			<track>Track</track>
+			<genre>Genre</genre>
+			<year>Year</year>
+			<website>Website</website>
+		</song>
+		
+		<song>
+			<artist>Hyukoh</artist>
+			<album>20</album>
+			<albumcover><img id="covers" src="images/hyukoh.jpg"/></albumcover>
+			<track>W ing W ing</track>
+			<genre>Ballad</genre>
+			<year>2014</year>
+			<website><a href="https://www.facebook.com/OfficialHyukoh">Hyukoh Facebook</a></website>
+			
+		</song>
+		
+		<song>
+			<artist>Stevie Wonder</artist>
+			<album>Songs in the Key of Life</album>
+			<albumcover><img id="covers" src="images/wonder.jpg"/></albumcover>
+			<track>Isn't She Lovely</track>
+			<genre>R&amp;B</genre>
+			<year>1976</year>
+			<website><a href="http://www.steviewonder.net/">Stevie Wonder</a></website>
+		</song>
+		
+		<song>
+			<artist>Jessie J</artist>
+			<album>Pitch Perfect 2</album>
+			<albumcover><img id="covers" src="images/jessiej.png"/></albumcover>
+			<track>Flashlight</track>
+			<genre>Pop</genre>
+			<year>2015</year>
+			<website><a href="http://www.jessiejofficial.com/">Jessie J</a></website>
+		</song>
+		
+		<song>
+			<artist>Imagine Dragons</artist>
+			<album>Night Visions</album>
+			<albumcover><img id="covers" src="images/imaginedragons.jpeg"/></albumcover>
+			<track>Demons</track>
+			<genre>Alternative Rock</genre>
+			<year>2013</year>
+			<website><a href="https://www.imaginedragonsmusic.com/">Imagine Dragons</a></website>
+		</song>
+	
+	</playlist>
+	
+	

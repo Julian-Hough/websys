@@ -1,0 +1,61 @@
+<!doctype html>
+<html>
+  <head>
+     <title>Lab 4 AJAX</title>
+	 <link rel="stylesheet" type="text/css" href="lab4.css">
+  </head>
+  <body>
+    <a id="button" href="#" ><img id="coverart" src="noalbum.png" /></a>
+	<div id="print"></div>
+  </body>
+  
+  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script>
+	$("#button").click(function() {
+		$("#button").hide();
+		var table = "<ul id=\"table\">";
+		var artist = "<li><ul class=\"column\"><li class=\"artist header\">Artist</li>";
+		var album = "<li><ul class=\"column\"><li class=\"album header\">Album</li>";
+		var albumcover = "<li><ul class=\"column\"><li class=\"albumcover header\">Album Cover</li>";
+		var track = "<li><ul class=\"column\"><li class=\"track header\">Track</li>";
+		var genre = "<li><ul class=\"column\"><li class=\"genre header\">Genre</li>";
+		var year = "<li><ul class=\"column\"><li class=\"year header\">Year</li>";
+		var website = "<li><ul class=\"column\"><li class=\"website header\">Website</li>";
+		
+		$.getJSON( "lab4.json", function( data ) {
+			
+			$.each( data.song, function( key, val ) {
+				artist += "<li class=\"artist\">" + val.artist + "</li>";
+				album += "<li class=\"album\">" + val.album + "</li>";
+				albumcover += "<li class=\"albumcover\"><img class=\"covers\" src=\"" + val.albumcover + "\"/></li>";
+				track += "<li class=\"track\">" + val.track + "</li>";
+				genre += "<li class=\"genre\">" + val.genre + "</li>";
+				year += "<li class=\"year\">" + val.year + "</li>";
+				website += "<li class=\"website\"><a href=\"" + val.website + "\">" + val.webdesc + "</a></li>";
+				
+			});
+			
+			artist += "</ul></li>";
+			album += "</ul></li>";
+			albumcover += "</ul></li>";
+			track += "</ul></li>";
+			genre += "</ul></li>";
+			year += "</ul></li>";
+			website += "</ul></li>";
+			
+			
+			table += artist + album + albumcover + track + genre + year + website;
+			
+			table += "</ul>";
+		    $("#print").html(table);
+		
+		});
+		
+		
+	});
+	
+  </script>
+  
+  
+</html>

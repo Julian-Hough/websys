@@ -1,0 +1,46 @@
+{
+	"song" : [
+	{
+		"artist" : "Hyukoh",
+		"album" : "20",
+		"albumcover" : "images/hyukoh.jpg",
+		"track" : "W ing W ing",
+		"genre" : "Ballad",
+		"year" : "2014",
+		"website" : "https://www.facebook.com/OfficialHyukoh",
+		"webdesc" : "Hyukoh Facebook"
+	},
+	{
+		"artist" : "Stevie Wonder",
+		"album" : "Songs in the Key of Life",
+		"albumcover" : "images/wonder.jpg",
+		"track" : "Isn't She Lovely",
+		"genre" : "R&amp;B",
+		"year" : "1976",
+		"website" : "http://www.steviewonder.net/",
+		"webdesc" : "Stevie Wonder"
+	},
+	{
+		"artist" : "Jessie J",
+		"album" : "Pitch Perfect 2",
+		"albumcover" : "images/jessiej.png",
+		"track" : "Flashlight",
+		"genre" : "Pop",
+		"year" : "2015",
+		"website" : "http://www.jessiejofficial.com/",
+		"webdesc" : "Jessie J"
+	},
+	{
+		"artist" : "Imagine Dragons",
+		"album" : "Night Visions",
+		"albumcover" : "images/imaginedragons.jpeg",
+		"track" : "Demons",
+		"genre" : "Alternative Rock",
+		"year" : "2013",
+		"website" : "https://www.imaginedragonsmusic.com/",
+		"webdesc" : "Imagine Dragons"
+	}
+	
+	]
+	
+}

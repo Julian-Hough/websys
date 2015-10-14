@@ -1,0 +1,89 @@
+.covers {
+	height: 100px;
+	width: 100px;
+	
+}
+
+#table {
+	
+	overflow: auto;
+	list-style: none;
+	margin: 0px;
+	padding: 100px 25px 0px 0px;
+	border: 1px solid black;
+}
+
+#table li ul {
+	float: left;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#table ul.column {
+	list-style: none;
+	float: left;
+}
+
+#table ul.albumcover {
+	float: right;
+}
+
+.header {
+	font-size: 1em !important;
+	font-style: normal !important;
+	font-variant: normal !important;
+	list-style: none !important;
+	color: black !important;
+	font-weight: bold !important;
+	height: 50px !important;
+	text-decoration: underline;
+	
+}
+
+.artist { 
+	width: 150px; height: 150px;
+	font-weight: bold;
+	
+}
+
+.album {	
+	width: 250px; height: 150px;
+	font-style: italic;
+}
+
+.albumcover{ 
+	width: 150px; height: 150px;
+	
+}
+
+.track{	
+	width: 250px; height: 150px;
+	font-variant: small-caps;
+	color: green;
+}
+
+.genre{	
+	width: 250px; height: 150px;
+	font-size: .75em;
+	list-style-type: disc;
+}
+
+.year{	
+	width:50px; height: 150px;
+	font-size: .75em;
+}
+
+.website{	
+	width:150px; height: 150px;
+}
+
+#footer {
+	clear: both;
+	size: .75em;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	font-style: italic;
+}
+
